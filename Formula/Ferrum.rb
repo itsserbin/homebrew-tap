@@ -1,20 +1,20 @@
 class Ferrum < Formula
   desc "A GPU-accelerated terminal emulator"
   homepage "https://github.com/itsserbin/ferrum"
-  version "0.1.3"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/itsserbin/ferrum/releases/download/v0.1.3/Ferrum-aarch64-apple-darwin.zip"
-      sha256 "b2b607022e095c11ada5b19a2740360995ece5788bcb908450786c44432f3819"
+      url "https://github.com/itsserbin/ferrum/releases/download/v0.2.0/Ferrum-aarch64-apple-darwin.zip"
+      sha256 "d730f1cfca72e45e14423801e283ab453adfc398be40e259f22be9996a163753"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/itsserbin/ferrum/releases/download/v0.1.3/Ferrum-x86_64-apple-darwin.zip"
-      sha256 "84eb1c7371b43b45ab929a2e1c704c99278986a0605efafb627caee849d606ed"
+      url "https://github.com/itsserbin/ferrum/releases/download/v0.2.0/Ferrum-x86_64-apple-darwin.zip"
+      sha256 "3e3fac53d011f8e129e28ec03f4db64d4ae80e5c8bd3a3be9caed148158154c1"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-      url "https://github.com/itsserbin/ferrum/releases/download/v0.1.3/Ferrum-x86_64-unknown-linux-gnu.zip"
-      sha256 "6051cbfa258176f6adc91cb53211180dbb100e8fe6d6ce8a478a2fe85cff0e5d"
+      url "https://github.com/itsserbin/ferrum/releases/download/v0.2.0/Ferrum-x86_64-unknown-linux-gnu.zip"
+      sha256 "7e6b69550cd88cb4545170114e14b2b995ad7c754e4f03675fc109b0880ad20c"
   end
   license "GPL-3.0"
 
