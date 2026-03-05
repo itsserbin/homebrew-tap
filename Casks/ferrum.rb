@@ -5,8 +5,8 @@ cask "ferrum" do
 
   url "https://github.com/itsserbin/ferrum/releases/download/v#{version}/ferrum-#{arch}-apple-darwin.dmg"
 
-  sha256 arm:   "c631c6d74d9686d6375cda9619d49637ce9ff8393c107895887025712968287e",
-         intel: "b18035c448c5e4db0c6fe4a084bca697379e61b5e9e670c02dabba596067fef9"
+  sha256 arm:   "480e7762cde175f1eed974fb391165618bc31e04bc9a5241ffa8cb31d6c43c5c",
+         intel: "04c2fc7836d56e0eb83e7f2b63f22326daf82b6c0d1e389f1db12f6c380d675f"
 
   name "Ferrum"
   desc "GPU-accelerated terminal emulator"
